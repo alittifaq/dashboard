@@ -18,7 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const data = {
         fullname: fullname,
         email: email,
-        password: password
+        password: password,
+        confirm_password: confirmPassword
       };
   
       fetch('/register', {
