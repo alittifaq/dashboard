@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         confirm_password: confirmPassword
       };
   
-      fetch('/register', {
+      fetch('https://asia-southeast2-blkkalittifaq-426014.cloudfunctions.net/blkkalittifaq/data/adminregister', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
