@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('registrationForm');
+    const registerButton = document.getElementById('registerButton');
   
-    form.addEventListener('submit', function(event) {
+    registerButton.addEventListener('click', function(event) {
       event.preventDefault();
   
       const fullname = document.getElementById('fullname').value;
@@ -33,7 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(data => {
         if (data.success) {
           alert('Registration successful');
-          form.reset();
+          document.getElementById('fullname').value = '';
+          document.getElementById('email').value = '';
+          document.getElementById('password').value = '';
+          document.getElementById('confirm_password').value = '';
         } else {
           alert('Registration failed: ' + data.message);
         }
