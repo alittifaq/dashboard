@@ -19,7 +19,7 @@ body {
   
   .registration-container h2 {
     margin-bottom: 1em;
-    color: #4CAF50;
+    color: #000000;
   }
   
   .form-group {
@@ -42,7 +42,7 @@ body {
   }
   
   .btn {
-    background: #4CAF50;
+    background: #007BFF;
     color: white;
     padding: 0.75em 1.5em;
     border: none;
@@ -52,6 +52,6 @@ body {
   }
   
   .btn:hover {
-    background: #45A049;
+    background: #0056b3;
   }
   
