@@ -1,7 +1,7 @@
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    const username = document.getElementById('username').value;
+    const username = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
     // Simulating a server request. Replace this with actual server request.
