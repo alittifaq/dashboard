@@ -22,7 +22,7 @@ document.getElementById("loginForm").addEventListener("submit", async function (
             const user = await response.json();
             // Store user information in local storage or cookie if needed
             // Redirect to the admin dashboard
-            window.location.href = 'dashboard.html';
+            window.location.href = 'https://www.blkkalittifaq.id/admin';
         } else {
             document.getElementById("error").style.display = "block";
         }
