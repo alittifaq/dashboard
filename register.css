@@ -17,7 +17,7 @@ body {
   background-image: url(bg3.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
 }
 
 section {
