@@ -151,3 +151,13 @@ button:hover {
 .register p a:hover {
   text-decoration: underline;
 }
+
+.show-password {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.show-password input {
+  margin-right: 10px;
+}
