@@ -35,18 +35,4 @@ document
       console.error("Error:", error);
       document.getElementById("error").style.display = "block";
     }
-    // Event listener untuk checkbox "Show Password"
-    document
-      .getElementById("show-password")
-      .addEventListener("change", function () {
-        const password = document.getElementById("password");
-        const confirmPassword = document.getElementById("confirm_password");
-        if (this.checked) {
-          password.type = "text";
-          confirmPassword.type = "text";
-        } else {
-          password.type = "password";
-          confirmPassword.type = "password";
-        }
-      });
   });

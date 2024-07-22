@@ -38,19 +38,19 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((response) => response.json())
       .then((data) => {
         if (data.success) {
-          alert("Registration successful");
+          alert("Registrasi Berhasil");
           // Reset form setelah registrasi berhasil
           document.getElementById("fullname").value = "";
           document.getElementById("email").value = "";
           document.getElementById("password").value = "";
           document.getElementById("confirm_password").value = "";
         } else {
-          alert("Registration failed: " + data.message);
+          alert("Registration : " + data.message);
         }
       })
       .catch((error) => {
         console.error("Error:", error);
-        alert("An error occurred. Please try again later.");
+        alert("Terjadi kesalahan. Silakan coba lagi nanti.");
       });
   });
 
