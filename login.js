@@ -36,3 +36,15 @@ document
       document.getElementById("error").style.display = "block";
     }
   });
+
+  document
+    .getElementById("show-password")
+    .addEventListener("change", function () {
+      const password = document.getElementById("password");
+      if (this.checked) {
+        password.type = "text";
+      } else {
+        password.type = "password";
+      }
+    });
+  
